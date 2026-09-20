@@ -1,6 +1,6 @@
 # 📊 Student Performance Analysis
 
-**Beginner Project — Data Cleaning, EDA & Visualization**
+**Beginner Project 01 — Data Cleaning, EDA & Visualization**
 
 A complete, beginner-level walkthrough of the standard data analysis pipeline — load → clean → describe → compare → visualize → conclude — applied to a public dataset of 1,000 students' exam scores. The goal wasn't to produce as many charts as possible; it was to notice something real in the data and explain it clearly. Every chart and table here is followed by a plain-language interpretation of what it actually shows.
 
@@ -78,17 +78,30 @@ Full reasoning, tables, and all group breakdowns are in the notebook and the sum
 
 ## 📊 Charts
 
-All charts are in [`charts/`](charts/), each paired with its written interpretation in the notebook and PDF report:
+All charts are in [`charts/`](charts/), each paired with its written interpretation in the notebook and PDF report.
 
-| Chart | Type |
-|---|---|
-| `01_bar_subject_gender.png` | Bar — average score by subject & gender |
-| `02_bar_parental_education.png` | Bar — average score by parental education |
-| `03_pie_test_prep.png` | Pie — test-prep course completion |
-| `04_histogram_average_score.png` | Histogram — distribution of average score |
-| `05_boxplot_lunch.png` | Box plot — average score by lunch type |
-| `06_scatter_reading_writing.png` | Scatter — reading vs. writing score |
-| `07_correlation_heatmap.png` | Heatmap — correlation between subjects |
+> ⚠️ **Setup note:** the images below only render if the PNG files sit inside a folder named exactly `charts` at the root of this repo (case-sensitive), i.e. `charts/01_bar_subject_gender.png`, not the files loose in the repo root. Extract the `charts.zip` into a folder called `charts/` and commit that folder.
+
+### Chart 1 — Average score by subject & gender
+![Average score by subject and gender](charts/01_bar_subject_gender.png)
+
+### Chart 2 — Average score by parental education
+![Average score by parental education](charts/02_bar_parental_education.png)
+
+### Chart 3 — Test-prep course completion
+![Test preparation course completion](charts/03_pie_test_prep.png)
+
+### Chart 4 — Distribution of average score
+![Distribution of average score](charts/04_histogram_average_score.png)
+
+### Chart 5 — Average score by lunch type
+![Average score by lunch type](charts/05_boxplot_lunch.png)
+
+### Chart 6 — Reading vs. writing score
+![Reading vs writing score scatter plot](charts/06_scatter_reading_writing.png)
+
+### Chart 7 — Correlation heatmap
+![Correlation heatmap between subjects](charts/07_correlation_heatmap.png)
 
 ---
 
